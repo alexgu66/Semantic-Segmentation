@@ -6,7 +6,7 @@ The goal of this project is to label the pixels of a road in images using a Full
 
 The NN is based on the network depicted in Fully Convolutional Networks for Semantic Segmentation by Jonathan Long, Even Shelhamer, and Trevor Darrel. Following is the architecture.
 
-![nn](C:\temp\Backup\Work\UC\Self Driving Car\Part 3 Path Planning Concentraion and Integration\15P Semantic Segmentation\CarND-Semantic-Segmentation-master\nn.JPG)
+![nn](/nn.JPG)
 
 All code is in main.py. 
 
@@ -18,7 +18,7 @@ The function optimize() reshapes the output and labels, then uses a standard cro
 
 The function train_nn() trains the neural network and print out the loss during training like following.
 
-![log](C:\temp\Backup\Work\UC\Self Driving Car\Part 3 Path Planning Concentraion and Integration\15P Semantic Segmentation\CarND-Semantic-Segmentation-master\log.JPG)
+![log](/log.JPG)
 
 ### Neural Network Training
 
@@ -28,20 +28,20 @@ The number of epoch and batch size is set to 55 and 6. Other combinations like 6
 
 The project labels most pixels of roads close to the best solution. The images of latest run is included in folder /1532344864.3118956. Following is some samples.
 
-![um_000006](C:\temp\Backup\Work\UC\Self Driving Car\Part 3 Path Planning Concentraion and Integration\15P Semantic Segmentation\CarND-Semantic-Segmentation-master\1532344864.3118956\um_000006.png)
+![um_000006](/1532344864.3118956/um_000006.png)
 
 
 
-![um_000013](C:\temp\Backup\Work\UC\Self Driving Car\Part 3 Path Planning Concentraion and Integration\15P Semantic Segmentation\CarND-Semantic-Segmentation-master\1532344864.3118956\um_000013.png)
+![um_000013](/1532344864.3118956/um_000013.png)
 
 
 
-![uu_000006](C:\temp\Backup\Work\UC\Self Driving Car\Part 3 Path Planning Concentraion and Integration\15P Semantic Segmentation\CarND-Semantic-Segmentation-master\1532344864.3118956\uu_000006.png)
+![uu_000006](/1532344864.3118956/uu_000006.png)
 
 
 
-![uu_000089](C:\temp\Backup\Work\UC\Self Driving Car\Part 3 Path Planning Concentraion and Integration\15P Semantic Segmentation\CarND-Semantic-Segmentation-master\1532344864.3118956\uu_000089.png)
+![uu_000089](/1532344864.3118956/uu_000089.png)
 
 
 
-![uu_000098](C:\temp\Backup\Work\UC\Self Driving Car\Part 3 Path Planning Concentraion and Integration\15P Semantic Segmentation\CarND-Semantic-Segmentation-master\1532344864.3118956\uu_000098.png)
+![uu_000098](/1532344864.3118956/uu_000098.png)
